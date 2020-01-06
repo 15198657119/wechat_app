@@ -1,0 +1,36 @@
+<!--miniprogram/pages/qintou/qintou.wxml-->
+<!--pages/addFunction/addFunction.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item" bindtap="testFunction">
+      <text>青头菌</text>
+    </view>
+   
+    <view class="list-item" wx:if="{{result}}">
+      <text class="request-text">调用结果：{{result}}</text>
+    </view>
+  </view>
+
+  <view class="guide">
+    <text class="headline">基本信息</text>
+    <text class="p">1. 拉丁学名：Russula virescens</text>
+    <text class="p">2. 别    称： 变绿红菇、青冈菌、绿豆菌、青堂菌。</text>
+    <text class="p">3. 产地：四川部分地区、重庆各地、河南南阳、云南全省各地州均有分布</text>
+
+  </view>
+
+  <view class="guide">
+    <text class="headline">营养成分及价值</text>
+    <text class="p">1.青头菌含有蛋白质、碳水化合物、钙、磷、铁、维生素B2、尼克酸等营养成分。</text>
+    <text class="p">2．气味甘甜，微酸，无毒；主治眼目不明，能泻肝经之火，散热舒气，妇人气郁，服之最良。对急躁、忧虑、抑郁、痴呆症等病症有很好的抑制作用。</text>
+  </view>
+
+    <view class="guide">
+    <text class="headline">保健食谱</text>
+    <text class="p">烧炒、炖、蒸、熘、拌、烩，将甲鱼、乌鸡、土鸡等混一起做汤，其味更鲜、营养更丰富！ </text>
+  
+  </view>
+
+</view>
+

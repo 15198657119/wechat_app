@@ -1,0 +1,45 @@
+<!--pages/addFunction/addFunction.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item" bindtap="testFunction">
+      <text>鸡枞</text>
+    </view>
+   
+    <view class="list-item" wx:if="{{result}}">
+      <text class="request-text">调用结果：{{result}}</text>
+    </view>
+  </view>
+
+  <view class="guide">
+    <text class="headline">基本信息</text>
+    <text class="p">1. 拉丁学名： Collybia albuminosa</text>
+    <text class="p">2. 别    称： 鸡枞蕈、鸡菌、鸡堫、鸡宗、鸡肉丝菇、伞把菌、鸡枞菌、鸡脚麟菇</text>
+    <text class="p">3. 产地：在中国，鸡枞仅西南、东南二省及台湾的一些地区出产，其中以黔西南所产为最佳，也最多</text>
+
+  </view>
+
+  <view class="guide">
+    <text class="headline">营养成分</text>
+    <text class="p">1．鸡枞能健脾和胃，令人食欲大增。</text>
+    <text class="p">2．它内含钙、磷、铁、蛋白质等多种营养成分，是体弱，病后和老年人的佳肴。</text>
+    <text class="p">3．鸡枞的另一特点是含磷量高，是需要补磷人士的佳肴。</text>
+    <text class="p">4．常食鸡枞还能提高机体免疫力，抵制癌细胞，降低血糖。</text>
+    <text class="p">5．鸡枞有养血润燥功能，对于妇女也很适合。</text>
+  </view>
+
+    <view class="guide">
+    <text class="headline">保健食谱</text>
+    <text class="p">鸡枞菇红烧鸭 </text>
+    <text class="p">1．鸭子洗干净后，去掉屁屁还有头颈处的皮，一则很油，二则发现颈部淋巴较多懒得一一剔，所以干脆剥去这段皮。</text>
+    <text class="p">2、一点油爆香姜后将剁好的鸭块下去翻炒，要一直翻炒到水分都干了，皮里的油都开始往外滋的时候，再翻炒一下将油逼出后，入料酒再炒，再次烧干后，加水没过所有材料，并加一颗八角，大火煮开。。</text>
+    <text class="p">3．开后用锅铲将上面的浮沫撇去，转中火煮至一半水时，将上面的浮油都撇出装在小碗里就是鸭油，可以拿来煮面、滚汤用。加老抽、盐继续煮，煮至剩三分之一汤时，加糖，再大火略收收汁要留些汤汁拌啥都好，关火，超级下饭又香的红烧鸭子就。</text>
+    
+    <text class="p">鸡枞肉片汤</text>
+    <text class="p">一、原料：鸡枞菌干片25克、猪肉片200克、精盐、味精、姜片、葱段、蒜片、水豆粉。</text>
+    <text class="p">二、 作法：</text>
+    <text class="p">1、鸡枞菌干品用温水浸泡约1小时，洗净伞帽与菌干分开，制成块状。：</text>
+    <text class="p">2．锅内注入高汤，煮沸时放入鸡枞、精盐、姜片、蒜片、调好汤味，约20分钟后加入用盐和水豆粉拌匀的肉片，并轻轻拨散，不使粘连，待锅内沸腾后加入葱段、味精混匀即成。</text>
+  </view>
+
+</view>

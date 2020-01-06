@@ -1,0 +1,21 @@
+<!--pages/deployFunctions/deployFunctions.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item">
+      <text class="black">详细信息</text>
+    </view>
+    <view class="list-item">
+      <text class="text1">CEO 小杨</text>   <image class="image1"  src="./xiaoyang.jpg" >  </image>
+    </view>
+    <view class="list-item">
+      <text class="text1">CTO 小罗</text>   <image class="image1"  src="./xiaoyang.jpg" >  </image>
+    </view>
+     <view class="list-item">
+      <text class="text1">CAO 小李</text>   <image class="image1"  src="./xiaoyang.jpg" >  </image>
+    </view>
+  </view>
+
+
+</view>
+

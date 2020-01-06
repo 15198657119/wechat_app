@@ -1,0 +1,43 @@
+<!--pages/addFunction/addFunction.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item" bindtap="testFunction">
+      <text>牛肝菌</text>
+    </view>
+   
+    <view class="list-item" wx:if="{{result}}">
+      <text class="request-text">调用结果：{{result}}</text>
+    </view>
+  </view>
+
+  <view class="guide">
+    <text class="headline">基本信息</text>
+    <text class="p">1. 拉丁学名： Boletus</text>
+    <text class="p">2. 别    称： 大脚菇、白牛头、黄乔巴、炒菌，也称大腿蘑、网纹牛肝菌，白木碗或者麻栎香</text>
+    <text class="p">3. 产地：分布于江苏、安徽、浙江、广东、四川、贵州、云南等地多</text>
+
+  </view>
+
+  <view class="guide">
+    <text class="headline">营养成分</text>
+    <text class="p">1．该菌具有清热解烦、养血和中、追风散寒、舒筋和血、补虚提神等作用，中医认为对贫血、体虚、头晕、耳鸣有功效，是中成药“舒筋丸”的原料之一；又是妇科良药，可治妇女白带症及不孕症。此外，其水提物对小白鼠肉瘤S-180的生长有阻抑作用，对肉瘤S-180的抑制率为100%，对艾氏腹水癌的抑制率为90%。同时还有抗流感病毒、防治感冒的作用。牛肝菌类是牛肝菌科和松塔牛肝菌科等真菌的统称，其中除少数品种有毒或味苦而不能食用外，大部分品种均可食用</text>
+    <text class="p">2．牛肝菌含有人体必需的8种氨基酸，还含有腺膘呤、胆碱和腐胺等生物碱。可药用，治疗腰腿疼痛、手足麻木、四肢抽搐，还可用以治妇女白带异常。</text>
+    <text class="p">3、白牛肝菌是林中菌类中功能齐全、食药兼用的珍品。经常食用牛肝菌可明显增强机体免疫力、改善机体微循环。</text>
+  </view>
+
+    <view class="guide">
+    <text class="headline">保健食谱</text>
+    <text class="p">方法一： </text>
+    <text class="p">1.黄牛肝菌洗净切成片（牛肝菌被金属刀一切就会变色）；</text>
+    <text class="p">2.青红椒、蒜片和花椒；</text>
+    <text class="p">3.做法：炒锅放油，烧好的油里放入切好的青椒和红椒，呛出香味；切成片或块的牛肝菌倒入翻炒，中火，一边炒一边放放蒜片、花椒和适量盐巴（花椒的作用是提味儿，放一些花椒，菌子更加有山珍味儿，和平时炒的菜味道特特别不一样。</text>
+    
+    <text class="p">方法二</text>
+    <text class="p">1．黄牛肝菌洗净，切成片；</text>
+    <text class="p">2．将蒜去皮洗净切成小片，干辣椒去蒂去籽切成长段；</text>
+    <text class="p">　3．锅置火上，注入花生油烧至三成热时，将蒜片与干辣椒段下锅稍炸一下；</text>
+    <text class="p">　4．旺火热油放入黄牛肝菌与蒜、辣椒爆炒，放入盐、味精起锅。口感：清香滋润，微辣、麻，菌香味醇厚。</text>
+  </view>
+
+</view>
